@@ -78,4 +78,3 @@ retail-supply-chain-analytics/
 ```
 
 ---
-<img src="dashboard.png" alt="Dashboard Preview" width="500">
