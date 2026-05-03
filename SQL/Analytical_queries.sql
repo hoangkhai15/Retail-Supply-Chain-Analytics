@@ -213,7 +213,7 @@ FROM ranked
 WHERE rank_in_category <= 3
 ORDER BY Category, rank_in_category;
 -- ============================================================
--- Customer Cohort — LTV Tiers
+-- Customer Cohort Â— LTV Tiers
 -- Group customers into High / Mid / Low value and compare behaviour
 -- ============================================================
 WITH CustomerLTV AS (
@@ -257,7 +257,7 @@ GROUP BY ltv_tier
 ORDER BY ltv_tier;
 -- ============================================================
 -- Salesperson KPI Scorecard
--- Full performance breakdown — revenue, profit, discounts, returns
+-- Full performance breakdown Â— revenue, profit, discounts, returns
 -- ============================================================
 WITH SalesPersonStats AS (
     SELECT
